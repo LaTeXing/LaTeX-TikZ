@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\\fill[$1];]]></content>
+  <scope>text.tex.latex.tikz</scope>
+  <tabTrigger>fill</tabTrigger>
+  <description>TikZ: fill</description>
+</snippet>

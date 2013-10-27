@@ -1,0 +1,91 @@
+{
+    "fileTypes": [
+        "fig",
+        "tikz"
+    ],
+    "name": "TikZ",
+    "patterns": [
+        {
+            "begin": "((\\\\)(clip|coordinate|draw|fill(draw)?|node|path|shade(draw)?|useasboundingbox))",
+            "beginCaptures": {
+                "1": {
+                    "name": "support.function.draw.latex.tikz"
+                },
+                "2": {
+                    "name": "punctuation.definition.function.latex.tikz"
+                }
+            },
+            "end": "(;)",
+            "endCaptures": {
+                "1": {
+                    "name": "punctuation.terminator.latex.tikz"
+                }
+            },
+            "name": "meta.function.draw.latex.tikz",
+            "patterns": [
+                {
+                    "match": "and|at|circle|controls|coordinate|grid|rectangle",
+                    "name": "keyword.control.tikz"
+                },
+                {
+                    "match": "[\\s\t]*\\\\(clip|coordinate|draw|fill(draw)?|node|path|shade(draw)?|useasboundingbox|end)",
+                    "name": "invalid.illegal.tikz"
+                },
+                {
+                    "captures": {
+                        "1": {
+                            "name": "punctuation.definition.parameters.begin.latex.tikz"
+                        },
+                        "2": {
+                            "name": "variable.parameter.latex.tikz"
+                        },
+                        "3": {
+                            "name": "punctuation.definition.parameters.end.latex.tikz"
+                        }
+                    },
+                    "match": "(\\[)([^\\]]+)(\\])",
+                    "name": "meta.parameter.tikz"
+                },
+                {
+                    "captures": {
+                        "1": {
+                            "name": "punctuation.definition.parameter.begin.latex.tikz"
+                        },
+                        "2": {
+                            "name": "entity.name.function.tikz"
+                        },
+                        "3": {
+                            "name": "punctuation.definition.parameters.end.latex.tikz"
+                        }
+                    },
+                    "match": "(\\()([^\\)]+)(\\))",
+                    "name": "meta.parameter.tikz"
+                },
+                {
+                    "begin": "(\\{)",
+                    "beginCaptures": {
+                        "1": {
+                            "name": "punctuation.definition.arguments.begin.latex.tikz"
+                        }
+                    },
+                    "end": "(\\})",
+                    "endCaptures": {
+                        "1": {
+                            "name": "punctuation.definition.arguments.end.latex.tikz"
+                        }
+                    },
+                    "patterns": [
+                        {
+                            "include": "text.tex.latex"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "include": "text.tex.latex"
+        }
+    ],
+    "scopeName": "text.tex.latex.tikz",
+    "uuid": "f25f4527-1ff2-478f-bd06-e34974f0387e"
+}

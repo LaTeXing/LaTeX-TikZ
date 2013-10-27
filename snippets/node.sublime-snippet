@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\\node (${1:id}) {${2:text}};]]></content>
+  <scope>text.tex.latex.tikz</scope>
+  <tabTrigger>node</tabTrigger>
+  <description>TikZ: node</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\\draw (${1:x},${2:y}) -- (${3:x},${4:y});]]></content>
+  <scope>text.tex.latex.tikz</scope>
+  <tabTrigger>draw</tabTrigger>
+  <description>TikZ: draw</description>
+</snippet>

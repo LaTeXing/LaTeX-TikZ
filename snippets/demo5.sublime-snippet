@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\begin{tikzpicture}[scale=.5]
+  \draw (0,0) -- node[above]{\$c\$} (13,0) -- node[anchor=south west]{\$b\$} (144/13,60/13) coordinate (a) -- node[above]{\$a\$} (0,0);
+  \draw[color=gray, line width=.5pt, dashed] (a) -- (144/13,0 );
+\end{tikzpicture}
+]]></content>
+  <description>TikZ Demo: Right triangles</description>
+  <scope>text.tex.latex.tikz</scope>
+</snippet>
