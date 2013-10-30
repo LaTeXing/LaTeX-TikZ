@@ -52,7 +52,7 @@
                             "name": "punctuation.definition.parameter.begin.latex.tikz"
                         },
                         "2": {
-                            "name": "entity.name.function.tikz"
+                            "name": "constant.other.latex.tikz"
                         },
                         "3": {
                             "name": "punctuation.definition.parameters.end.latex.tikz"
