@@ -5,7 +5,7 @@ This package provides TikZ in Sublime Text. It comes with:
 - Language definitions for TikZ
 - Various number of snippets
 
-![](https://raw.github.com/wiki/Chris---/SublimeText-TikZ/tikz.jpg)
+![](https://raw.github.com/wiki/csch0/SublimeText-TikZ/tikz.jpg)
 
 ## Dependencies
 
@@ -17,9 +17,9 @@ To use the advantages of LaTeXing together with TikZ, simply enable the tikz set
 
 Support any of this projects via [gittip][] or [paypal][].
 
-[![Support via Gittip](https://rawgithub.com/chris---/Donation-Badges/master/gittip.jpeg)][gittip] [![Support via PayPal](https://rawgithub.com/chris---/Donation-Badges/master/paypal.jpeg)][paypal]
+[![Support via Gittip](https://rawgithub.com/csch0/Donation-Badges/master/gittip.jpeg)][gittip] [![Support via PayPal](https://rawgithub.com/csch0/Donation-Badges/master/paypal.jpeg)][paypal]
 
 [docs]: http://docs.latexing.com
-[gittip]: https://www.gittip.com/Chris---
+[gittip]: https://www.gittip.com/csch0
 [latexing]: http://www.latexing.com
 [paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZWZCJPFSZNXEW
