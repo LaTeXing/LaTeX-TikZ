@@ -5,7 +5,7 @@ This package provides TikZ in Sublime Text. It comes with:
 - Language definitions for TikZ
 - Various number of snippets
 
-![](https://raw.github.com/wiki/csch0/SublimeText-TikZ/tikz.jpg)
+![](https://raw.github.com/wiki/LaTeXing/TikZ/tikz.jpg)
 
 ## Dependencies
 
